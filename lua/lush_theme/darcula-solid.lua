@@ -24,7 +24,7 @@ local hsl = lush.hsl
 local bf, it, un = 'bold', 'italic', 'underline'
 
 -- Base colors
-local c0 = hsl(240, 1, 15)
+local c0 = hsl(0, 0, 9)
 local c1 = c0.lighten(5)
 local c2 = c1.lighten(2)
 local c3 = c2.lighten(20).sa(10)
@@ -50,7 +50,7 @@ local pop     = c7
 local red     = hsl(1, 77, 59)
 local salmon  = hsl(10,  90, 70)
 local orange  = hsl(27, 61, 50)
-local yellow  = hsl(37, 100, 71)
+local yellow  = hsl(305, 35, 65)
 
 local green   = hsl(83, 27, 53)
 local teal    = hsl(150,  40, 50)
